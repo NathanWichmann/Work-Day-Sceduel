@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+    
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h2>Current Time &amp; Date: <br /> <span id="time-display">00:00:00</span></h2>
+    </header>
+    
+    <section>
+  <div class="container">
+     <div class="row">
+       <div class="input-group-prepend">
+      <span class="input-group-text hour" id="inputGroup-sizing-lg">09:00 am</span>
+    </div>
+      <textarea type="text" class="description" id="9am" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+      <div class="input-group-append">
+      <button class="btn saveBtn" type="button">Save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-group-prepend">
+       <span class="input-group-text hour" id="inputGroup-sizing-lg">10:00 am</span>
+     </div>
+       <textarea type="text" class="description" id="10am" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+       <div class="input-group-append">
+       <button class="btn saveBtn" type="button">Save</button>
+         </div>
+       </div>
+
+       <div class="row">
+        <div class="input-group-prepend">
+       <span class="input-group-text hour" id="inputGroup-sizing-lg">11:00 am</span>
+     </div>
+       <textarea type="text" class="description" id="11am" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+       <div class="input-group-append">
+       <button class="btn saveBtn" type="button">Save</button>
+         </div>
+       </div>
+
+       <div class="row">
+        <div class="input-group-prepend">
+       <span class="input-group-text hour" id="inputGroup-sizing-lg">12:00 am</span>
+     </div>
+       <textarea type="text" class="description" id="12pm" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+       <div class="input-group-append">
+       <button class="btn saveBtn" type="button">Save</button>
+         </div>
+       </div>
+
+       <div class="row">
+        <div class="input-group-prepend">
+       <span class="input-group-text hour" id="inputGroup-sizing-lg">01:00 pm</span>
+     </div>
+       <textarea type="text" class="description" id="1pm" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+       <div class="input-group-append">
+       <button class="btn saveBtn" type="button">Save</button>
+         </div>
+       </div>
+
+       <div class="row">
+        <div class="input-group-prepend">
+       <span class="input-group-text hour" id="inputGroup-sizing-lg">02:00 pm</span>
+     </div>
+       <textarea type="text" class="description" id="2pm" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+       <div class="input-group-append">
+       <button class="btn saveBtn" type="button">Save</button>
+         </div>
+       </div>
+
+       <div class="row">
+        <div class="input-group-prepend">
+       <span class="input-group-text hour" id="inputGroup-sizing-lg">03:00 pm</span>
+     </div>
+       <textarea type="text" class="description" id="3pm" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+       <div class="input-group-append">
+       <button class="btn saveBtn" type="button">Save</button>
+         </div>
+       </div>
+
+       <div class="row">
+        <div class="input-group-prepend">
+       <span class="input-group-text hour" id="inputGroup-sizing-lg">04:00 pm</span>
+     </div>
+       <textarea type="text" class="description" id="4pm" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+       <div class="input-group-append">
+       <button class="btn saveBtn" type="button">Save</button>
+         </div>
+       </div>
+
+       <div class="row">
+        <div class="input-group-prepend">
+       <span class="input-group-text hour" id="inputGroup-sizing-lg">05:00 pm</span>
+     </div>
+       <textarea type="text" class="description" id="5pm" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+       <div class="input-group-append">
+       <button class="btn saveBtn" type="button">Save</button>
+         </div>
+       </div>
+    
+  
+  <!-- <div class="container">
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-lg">10:00 am</span>
+    <textarea type="text" class="form-control" id="10am" placeholder="This hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+    <div class="input-group-append">
+    <button class="saveBtn" type="button">Save</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-lg">11:00 am</span>
+    <textarea type="text" class="form-control" id="11am" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+    <div class="input-group-append">
+    <button class="saveBtn" type="button">Save</button>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="input-group mb-3">
+  <span class="input-group-text" id="inputGroup-sizing-lg">12:00 pm</span>
+  <textarea type="text" class="form-control" id="12pm" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+  <div class="input-group-append">
+  <button class="saveBtn" type="button">Save</button>
+  </div>
+</div>
+</div>
+
+<div class="container">
+  <div class="input-group mb-3">
+  <span class="input-group-text" id="inputGroup-sizing-lg">1:00 pm</span>
+  <textarea type="text" class="form-control" id="1pm" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+  <div class="input-group-append">
+  <button class="saveBtn" type="button">Save</button>
+  </div>
+</div>
+</div>
+
+<div class="container">
+  <div class="input-group mb-3">
+  <span class="input-group-text" id="inputGroup-sizing-lg">2:00 pm</span>
+  <textarea type="text" class="form-control" id="2pm" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+  <div class="input-group-append">
+  <button class="saveBtn" type="button">Save</button>
+  </div>
+</div>
+</div>
+
+<div class="container">
+  <div class="input-group mb-3">
+  <span class="input-group-text" id="inputGroup-sizing-lg">3:00 pm</span>
+  <textarea type="text" class="form-control" id="3pm" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+  <div class="input-group-append">
+  <button class="saveBtn" type="button">Save</button>
+  </div>
+</div>
+</div>
+
+<div class="container">
+  <div class="input-group mb-3">
+  <span class="input-group-text" id="inputGroup-sizing-lg">4:00 pm</span>
+  <textarea type="text" class="form-control" id="4pm" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+  <div class="input-group-append">
+  <button class="saveBtn" type="button">Save</button>
+  </div>
+</div>
+</div>
+
+<div class="container">
+  <div class="input-group mb-3">
+  <span class="input-group-text" id="inputGroup-sizing-lg">5:00 pm</span>
+  <textarea type="text" class="form-control" id="5pm" placeholder="This Hour is Unscheduled" aria-label="This Hour is Unscheduled" aria-describedby="basic-addon2"></textarea>
+  <div class="input-group-append">
+  <button class="saveBtn" type="button">Save</button>
+  </div> -->
+</div>
+</section>
+
+
+      
+      <!-- Timeblocks go here -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
