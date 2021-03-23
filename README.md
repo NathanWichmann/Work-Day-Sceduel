@@ -1,1 +1,1 @@
-# Work-Day-Sceduel
+# Work-Day-Scheduler
