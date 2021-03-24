@@ -1,9 +1,10 @@
-
+// this shows the time and calls right now to show the month day year and seconds 
 var timeDisplayEl = $('#time-display');
-
+//ths is populated with the value of whats put in the description by the user 
 var userInputEl;
+//this is on the imput line and has an individual id for each hour, shows the hour used with the description 
 var hourUsedEl;
-
+//initially i was going to use these to get the local storage but i found a quicker way online 
 var nineAmEl = $('#9am')
 var tenAmEl = $('#10am')
 var elevenAmEl = $('#11am')
@@ -34,7 +35,7 @@ function displayTime() {
       
       hourUsedEl = $(this).siblings(".description").attr("id");
       console.log("hourUsedEl", hourUsedEl)
-      
+      //sets the hour used as the key and the user input as the value 
       localStorage.setItem(hourUsedEl, userInputEl);
       
     
@@ -44,6 +45,7 @@ function displayTime() {
   // $(document).on("pagecreate",function(){
   //   $("#8am .description").val(localStorage.getItem("8am"));
   //  });
+  
   
   $("#9am").val(localStorage.getItem("9am"));
 
