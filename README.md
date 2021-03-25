@@ -4,6 +4,6 @@ The moment.js was used to display the date and time on the planner right up to t
 
 Link to the Deployed Website <a href="https://nathanwichmann.github.io/Work-Day-Scheduler/.">Deployed Website</a> 
 
-<img scr="https://user-images.githubusercontent.com/77902368/112399036-dd180f00-8cdb-11eb-9bfc-9675ae7af81b.png" alt="Screenshot"> 
-<img scr="https://user-images.githubusercontent.com/77902368/112399087-f620c000-8cdb-11eb-84bc-f12aab13744c.png" alt="Screenshot">
-<img scr="https://user-images.githubusercontent.com/77902368/112399127-0afd5380-8cdc-11eb-8ac4-604d340ce99b.png" alt="Screenshot">
+<img src="https://user-images.githubusercontent.com/77902368/112399036-dd180f00-8cdb-11eb-9bfc-9675ae7af81b.png" alt="Screenshot"> 
+<img src="https://user-images.githubusercontent.com/77902368/112399087-f620c000-8cdb-11eb-84bc-f12aab13744c.png" alt="Screenshot">
+<img src="https://user-images.githubusercontent.com/77902368/112399127-0afd5380-8cdc-11eb-8ac4-604d340ce99b.png" alt="Screenshot">
