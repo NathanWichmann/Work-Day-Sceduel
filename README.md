@@ -14,6 +14,12 @@ I started all over again and created a new div and copied/pasted the new ones an
 I went over the bootstrap layout and utilies section again and have a better understanding for column spacing and responsive design. The activities in the course were way to fast for me and I didn't understand them properly after I went back and taught them to myself. 
 There is just so much information to absorb in this course and what we did in 10 minutes as an activity could have been an hour long lecture.
 I have become more comfortible with the functions in the javascript. However, I still need guidence with the formation of the functions. Being that I wasn't able to meet up with tutor to help guide me in the right direction and I didn't want to waste hours trying to figure it out on my own. I decided to search the internet for direction and found help on github. This saved me time I didn't have because the last assignment left me behind on my readings and activities and it showed in this assignment when I had hard time with spacing the bootstrap columns. 
+I had a hard time figuring out the past, present and future background colors. I knew it would come down to an if statement, but I didnt know how to get the information in the html. I had to refer to previous students code to try and deficer how to do that. They all used the same method and looked it up and its the iteration form for jquery. It makes iteration so much faster by just using the word each after the desired target class. Then I needed to know how to reach each of those id's and get a value. Here is where the confusion comes for me. The litature states that the parseInt function parses a string argument and returns an integer of the specified radix. If it is not a string then it converts to one using toString. I get what this says on paper, however all it did was iterate through the 25 hour clock id's one after the other. I guess cause this is already a number which is already a value it just returns the number. I may have answered my own question.
+
+#Contributors
+Looked at different code from github respositories and stack overflow. 
+received some help from my TA Aiden to get the html working properly. 
+
 
 
 
