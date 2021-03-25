@@ -40,7 +40,7 @@ function displayTime() {
       console.log("userInputEl", userInputEl)
       
       hourUsedEl = $(this).siblings(".description").attr("id");
-      
+
       console.log("hourUsedEl", hourUsedEl)
       //sets the hour used as the key and the user input as the value 
       localStorage.setItem(hourUsedEl, userInputEl);
@@ -79,9 +79,6 @@ function displayTime() {
         }
       });
     }
-  // $(document).on("pagecreate",function(){
-  //   $("#8am .description").val(localStorage.getItem("8am"));
-  //  });
   
   //because the description and time id are both in the textarea i only need one selector 
   $("#9am").val(localStorage.getItem("9am"));
