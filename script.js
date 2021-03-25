@@ -15,6 +15,7 @@ var threePmEl = $('#3pm')
 var fourPmEl = $('#4pm')
 var fivePmEl = $('#5pm')
 
+var currenthourEl = moment().hour(); 
 
 //display the current date and time to the second in the hero/header 
 function displayTime() {
@@ -23,6 +24,10 @@ function displayTime() {
     // console.log("timeDisplayEl")
     // console.log('MMM DD, YYYY [at] hh:mm:ss a')
   }
+  //this calls the displaytime function and shows every second on the screen 
+  setInterval(displayTime, 1000);
+  
+  
   //lets the page load and the once document is ready this funtion runs 
   $(document).ready(function () {
     //connecting to the saveBtnEl and crwading the ecent 
@@ -37,20 +42,29 @@ function displayTime() {
       console.log("hourUsedEl", hourUsedEl)
       //sets the hour used as the key and the user input as the value 
       localStorage.setItem(hourUsedEl, userInputEl);
-      
-    
   });
   });
 
+   
+  function setCurrentHour () {
+      console.log ("currenthourEl", currenthourEl)
+  }
   // $(document).on("pagecreate",function(){
   //   $("#8am .description").val(localStorage.getItem("8am"));
   //  });
   
-  
+  //because the description and id are both in the textarea i only need one selector 
   $("#9am").val(localStorage.getItem("9am"));
+  $("#10am").val(localStorage.getItem("10am"));
+  $("#11am").val(localStorage.getItem("11am"));
+  $("#12pm").val(localStorage.getItem("12pm"));
+  $("#1pm").val(localStorage.getItem("1pm"));
+  $("#2pm").val(localStorage.getItem("2pm"));
+  $("#3pm").val(localStorage.getItem("3pm"));
+  $("#4pm").val(localStorage.getItem("4pm"));
+  $("#5pm").val(localStorage.getItem("5pm"));
 
 
   
 
-  //this calls the displaytime function and shows every second on the screen 
-  setInterval(displayTime, 1000);
+  
